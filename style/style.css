@@ -1,0 +1,122 @@
+index_body {
+  background-color:red;
+}
+resume_body {
+  background:url('../media/Resume_Background.jpg');
+  /*background-repeat: repeat;*/
+  background-size: cover;
+  background-position: center center;
+}
+
+UAE_body {
+  background:url('../media/UAE_Background.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+index_body {
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 4em;
+  font-size: 2em;
+  font-family: 'Crimson Text', serif;  
+}
+
+resume_content {
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 4em;
+  font-size: 2em;
+  font-family: 'EB Garamond', serif;
+}
+UAE_content {
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 4em;
+  font-size: 2em;
+  font-family: 'Frank Ruhl Libre', serif; 
+}
+/*navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  display: inline-block;
+  list-style-type: none;
+}*/
+/*.nav li{
+  float: center;
+}*/
+.navbar {	
+  background-color: blue; 
+  height:48px;
+  position: fixed; 
+  margin: 0% 0% 0% 0%;
+  top: 0; 
+  width:100%; 
+} 
+
+.navbar a { 
+  display: block; 
+  text-align: center; 
+  color: black; 
+  padding: 10px 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+}
+
+.navbar a:hover {
+    transform : scale(1.2);
+}
+
+.navbar ul
+{
+  margin:0;
+  text-align:center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  height: 4em;
+  font-size: 1em;
+}
+
+footer p a {
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: underline;
+}
+
+section {
+  margin: 50px auto;
+  align-items: center;
+  border-radius: 5px 20px;
+  background-color: #ede6e3 ;
+  width: auto;
+  padding: 10px 5px;
+}
+
+#map {
+  height: 500px;
+  width: 600px;
+  text-align: center;
+}
+
